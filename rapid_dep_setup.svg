@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1044.26 885.96" style="enable-background:new 0 0 1044.26 885.96;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#62833C;stroke-miterlimit:10;}
+	.st1{fill:none;}
+	.st2{fill:#555C5E;}
+	.st2_1{font-family:'Calibri'; fill:#2aadd9; font-size:15px; pointer-events: auto;}
+	.st2_1:hover{fill:#f0820f; }
+	.st3{font-family:'Calibri';}
+	.st4{font-size:15px;}
+	.st5{fill:none;stroke:#607D8B;stroke-width:0.75;stroke-miterlimit:10;}
+	.st6{fill:#127784;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st6:hover{fill:#004c57; transition: fill .1s;}	
+	.st7{fill:#FFFFFF;}
+	.st7:hover{fill:#d6e0e7;}
+	.st8{font-size:16px;}
+	.st9{fill:#006288;}
+	.st10{fill:#F6861F;}
+	.st11{fill:#62833C;}
+	.st12{fill:#737575;}
+	.st13{fill:#F0EEEF;}
+	.st13n{fill:#F0EEEF;}
+	.st13:hover{fill:#d6e0e7; stroke:#F0EEEF;}
+	.st14{fill:#4C585D;}
+	.st15{font-size:13px;}
+	.st16{font-size:20px;}
+	
+		/*  disable text mouse pointer for text   */  
+    text {
+  	      pointer-events: none;
+        }
+	/* for hiding tasks initially  */
+      #h1, #h2, #h3, #h4, #h5, #h6, #h7, #h8, #h9{ visibility: hidden;   }
+      
+   #main, #main_lines, #sysAud, #pref, #sub, #admin, #system, #multi, #sysSec, #search, #plmxml {
+        opacity: 0;
+        }
+
+/* keyframe - 1 sec to show, don't fade  */
+    @keyframes blockFadein1 {
+            0%   {  
+                    opacity: 0;    
+                }
+            50% {  
+                    opacity: 1.0;   
+                }
+            100% {  
+                    opacity: 1.0;   
+                }
+        }
+        
+  #main {
+    		animation-name: blockFadein1;
+            animation-delay: 0s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+            
+   #main_lines {
+    		animation-name: blockFadein1;
+            animation-delay: .5s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+    
+   #sysAud, #pref, #sub, #admin {
+    		animation-name: blockFadein1;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+            
+    #system, #multi, #sysSec, #search, #plmxml{
+    		animation-name: blockFadein1;
+            animation-delay: 1.5s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+</style>
+<g id="main_lines">
+	<line class="st0" x1="321.01" y1="442.96" x2="737.22" y2="442.96"/>
+	<path class="st0" d="M320.66,428.39c16.05,0.43,33.26,0.76,49.3-0.08c12.82-0.67,20.82-8.59,26.33-16.69
+		c2.95-4.33,5.9-8.66,8.85-13c6.29-9.24,12.59-18.49,18.21-27.97c3.13-5.28,6.03-11.91,12.5-15.26c6.68-3.46,15.06-3.52,22.92-3.67
+		c29.45-0.56,60.23-0.15,90.84-0.15"/>
+	<path class="st0" d="M318.91,459.46c16.05-0.4,33.26-0.7,49.3,0.07c12.82,0.62,20.82,7.98,26.33,15.51
+		c2.95,4.02,5.9,8.05,8.85,12.07c6.29,8.58,12.59,17.17,18.21,25.99c3.13,4.9,6.03,11.06,12.5,14.18
+		c6.68,3.21,15.06,3.27,22.92,3.41c29.45,0.52,60.23,0.14,90.85,0.14"/>
+	<path class="st0" d="M316.6,411.48c16.05,0.49,22.94,0.98,38.98,0.01c12.82-0.77,20.82-9.91,26.33-19.25
+		c2.95-5,9.55-13.18,12.5-18.18c6.29-10.65,55.48-83.66,61.1-94.6c3.13-6.08,9.85-14.64,16.33-18.51
+		c6.68-3.99,17.35-2.81,25.21-2.98c29.45-0.64,235.19-0.18,265.8-0.18"/>
+	<path class="st0" d="M310.66,398.3c14.37,0.7,20.53,1.38,34.89,0.02c11.47-1.09,18.64-14.07,23.57-27.32
+		c2.64-7.09,8.55-18.71,11.19-25.8c5.63-15.12,49.66-118.74,54.7-134.27c2.8-8.64,8.81-20.78,14.61-26.27
+		c5.98-5.66,15.53-3.98,22.56-4.23c26.36-0.91,99.98-0.25,127.38-0.25"/>
+	<path class="st0" d="M296.38,380.09c14.37,0.96,21.41,1.91,35.77,0.03c11.47-1.51,18.64-21.1,23.57-39.44
+		c2.64-9.81,8.55-25.89,11.19-35.7c5.63-20.93,49.66-164.3,54.7-185.78c2.8-11.95,8.81-28.76,14.61-36.35
+		c5.98-7.83,15.53-5.51,22.56-5.85c26.36-1.26,190.25-0.35,217.65-0.35"/>
+	<path class="st0" d="M290.3,506.63c14.37-0.96,29.28-1.91,43.64-0.03c11.47,1.5,18.64,20.23,23.57,38.51
+		c2.64,9.78,8.55,25.82,11.19,35.6c5.63,20.87,49.66,163.84,54.7,185.27c2.8,11.92,8.81,28.68,14.61,36.25
+		c5.98,7.81,15.53,5.5,22.56,5.83c26.36,1.26,190.25,0.35,217.65,0.35"/>
+	<path class="st0" d="M313.98,476.05c16.05-0.48,22.06-0.95,38.1-0.01c12.82,0.75,20.82,9.69,26.33,18.83
+		c2.95,4.89,9.55,12.9,12.5,17.78c6.29,10.42,55.48,81.83,61.1,92.53c3.13,5.95,9.85,14.32,16.33,18.1
+		c6.68,3.9,17.35,2.75,25.21,2.91c29.45,0.63,235.19,0.17,265.8,0.17"/>
+	<path class="st0" d="M306.46,489.93c16.05-0.69,19.44-1.37,35.48-0.02c12.82,1.08,20.82,13.92,26.33,27.04
+		c2.95,7.02,9.55,18.52,12.5,25.53c6.29,14.97,55.48,117.51,61.1,132.87c3.13,8.55,9.85,20.57,16.33,26
+		c6.68,5.6,17.35,3.94,25.21,4.18c29.45,0.9,83.8,0.25,114.41,0.25"/>
+</g>
+<g id="h1">
+	<g>
+		<rect x="809.63" y="44.02" class="st1" width="184.97" height="52.1"/>
+		<text transform="matrix(1 0 0 1 809.6318 54.1885)"><tspan x="0" y="0" class="st2 st3 st4">Administer and maintain </tspan><tspan x="0" y="15" class="st2 st3 st4">Rapid Start database and </tspan><tspan x="0" y="30" class="st2 st3 st4">systems. </tspan></text>
+	</g>
+</g>
+<g id="h2">
+	<path class="st5" d="M813.53,152.57c0,0-49.98,30.64-148.58,25.2"/>
+	<g>
+		<rect x="816.77" y="122.41" class="st1" width="217.65" height="86.76"/>
+		<text transform="matrix(1 0 0 1 816.7672 132.5783)" class="st2 st3 st4"><tspan x="0" y="0">Control various aspects of </tspan><tspan x="0" y="15">behavior, appearance, and </tspan><tspan x="0" y="30">functionality of Rapid Start using </tspan><tspan x="0" y="45" class="st2_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.managing_prefs/html/xid1549638" target="_top">preferences</a></tspan> <tspan x="75" y="45">and </tspan> <tspan x="0" y="60" class="st2_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00026/html/xid340332" target="_top">environment variables.</a></tspan></text>
+	</g>
+</g>
+<g id="h3">
+	<g>
+		<rect x="810.41" y="233.83" class="st1" width="184.97" height="52.1"/>
+		<text transform="matrix(1 0 0 1 810.4125 243.997)"><tspan x="0" y="0" class="st2 st3 st4">Set up processes to </tspan><tspan x="0" y="15" class="st2 st3 st4">synchronize data between </tspan><tspan x="0" y="30" class="st2 st3 st4">multiple Rapid Start sites.</tspan></text>
+	</g>
+</g>
+<g id="h4">
+	<g>
+		<rect x="830.68" y="334.8" class="st1" width="185.72" height="40.31"/>
+		<text transform="matrix(1 0 0 1 830.6777 344.972)"><tspan x="0" y="0" class="st2 st3 st4">Set up rules for logging </tspan><tspan x="0" y="15" class="st2 st3 st4">system events.</tspan></text>
+	</g>
+	<path class="st5" d="M823.81,349.68c0,0-59.55,10.43-158.15,4.99"/>
+</g>
+<g id="h5">
+	<g>
+		<rect x="807.63" y="412.76" class="st1" width="185.72" height="71.3"/>
+		<text transform="matrix(1 0 0 1 807.6339 422.9289)"><tspan x="0" y="0" class="st2 st3 st4">Define and implement the </tspan><tspan x="0" y="15" class="st2 st3 st4">user authentication and </tspan><tspan x="0" y="30" class="st2 st3 st4">authorization scheme for </tspan><tspan x="0" y="45" class="st2 st3 st4">Rapid Start.</tspan></text>
+	</g>
+</g>
+<g id="h6">
+	<g>
+		<rect x="833.63" y="505.28" class="st1" width="179.11" height="60.78"/>
+		<text transform="matrix(1 0 0 1 833.6313 515.4547)"><tspan x="0" y="0" class="st2 st3 st4">Work with site </tspan><tspan x="0" y="15" class="st2 st3 st4">administration data  to </tspan><tspan x="0" y="30" class="st2 st3 st4">manage and troubleshoot </tspan><tspan x="0" y="45" class="st2 st3 st4">issues within the site.</tspan></text>
+	</g>
+	<path class="st5" d="M824.83,529.43c0,0-59.55,10.43-158.15,4.99"/>
+</g>
+<g id="h7">
+	<g>
+		<rect x="807.84" y="594.87" class="st1" width="218.76" height="69.87"/>
+		<text transform="matrix(1 0 0 1 807.8403 605.0453)" class="st2 st3 st4"><tspan x="0" y="0" class="st2_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.SearchIndexDeploy/html/xid893561" target="_top">Configure indexing of product data,</a> </tspan><tspan x="0" y="15" class="st2_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00301/html/xid597828" target="_top">configure search behavior,</a></tspan> <tspan x="165" y="15">and </tspan><tspan x="0" y="30" class="st2_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.query_builder/html/xid375526" target="_top">create customized queries</a> </tspan><tspan x="165" y="30">for </tspan><tspan x="0" y="45" class="st2 st3 st4">searching product data.</tspan></text>
+	</g>
+</g>
+<g id="h8">
+	<g>
+		<rect x="836.21" y="687.79" class="st1" width="170.32" height="71.3"/>
+		<text transform="matrix(1 0 0 1 836.2139 697.9567)"><tspan x="0" y="0" class="st2 st3 st4">Administer and </tspan><tspan x="0" y="15" class="st2 st3 st4">troubleshoot event </tspan><tspan x="0" y="30" class="st2 st3 st4">notifications and </tspan><tspan x="0" y="45" class="st2 st3 st4">subscriptions. </tspan></text>
+	</g>
+	<path class="st5" d="M824.83,711.21c0,0-59.55,10.43-158.15,4.99"/>
+</g>
+<g id="h9">
+	<g>
+		<rect x="805.57" y="791.73" class="st1" width="168.37" height="48.17"/>
+		<text transform="matrix(1 0 0 1 805.5672 801.8961)"><tspan x="0" y="0" class="st2 st3 st4">Set up rules to export </tspan><tspan x="0" y="15" class="st2 st3 st4">product data to PLM/XML </tspan><tspan x="0" y="30" class="st2 st3 st4">format.</tspan></text>
+	</g>
+</g>
+<g id="system">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00102/html/getStart" target="_top">
+	<circle onmouseover="h1Function()" onmouseout="hidepanels()" class="st6" cx="738.94" cy="76.28" r="61.6"/>
+	<g>
+		<rect x="688.48" y="51.99" class="st1" width="100.93" height="48.58"/>
+		<text transform="matrix(1 0 0 1 701.4194 62.8412)"><tspan x="0" y="0" class="st7 st3 st8">System and</tspan><tspan x="7.83" y="16" class="st7 st3 st8">database</tspan><tspan x="-5.73" y="32" class="st7 st3 st8">management</tspan></text>
+	</g>
+</a></g>
+<g id="pref">
+	<circle onmouseover="h2Function()" class="st6" cx="599.32" cy="180.06" r="61.6"/>
+	<g>
+		<rect x="551.85" y="149.95" class="st1" width="94.93" height="60.21"/>
+		<text transform="matrix(1 0 0 1 560.5298 160.7996)"><tspan x="0" y="0" class="st7 st3 st8">Preferences </tspan><tspan x="26.55" y="16" class="st7 st3 st8">and </tspan><tspan x="-3.31" y="32" class="st7 st3 st8">environment </tspan><tspan x="9.74" y="48" class="st7 st3 st8">variables</tspan></text>
+	</g>
+</g>
+<g id="multi">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.multi-site/html/msc_intro" target="_top">
+	<circle onmouseover="h3Function()" onmouseout="hidepanels()" class="st6" cx="739.57" cy="256.99" r="61.6"/>
+	<g>
+		<rect x="687.21" y="239.86" class="st1" width="104.72" height="34.25"/>
+		<text transform="matrix(1 0 0 1 708.1572 250.7101)"><tspan x="0" y="0" class="st7 st3 st8">Multi-site </tspan><tspan x="-11.62" y="16" class="st7 st3 st8">collaboration</tspan></text>
+	</g>
+</a></g>
+<g id="sysAud">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00022/html/xid452881" target="_top">
+	<circle onmouseover="h4Function()" onmouseout="hidepanels()" class="st6" cx="598.18" cy="351.5" r="61.6"/>
+	<text transform="matrix(1 0 0 1 574.705 347.5323)"><tspan x="0" y="0" class="st7 st3 st8">System</tspan><tspan x="-3.02" y="16" class="st7 st3 st8">auditing</tspan></text>
+</a></g>
+<g id="sysSec">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00101/html/c_getting_started_sec_admin" target="_top">
+	<circle onmouseover="h5Function()" onmouseout="hidepanels()" class="st6" cx="739.24" cy="443.28" r="61.6"/>
+	<g>
+		<rect x="689.22" y="426.48" class="st1" width="100.04" height="33.62"/>
+		<text transform="matrix(1 0 0 1 715.7642 437.3232)"><tspan x="0" y="0" class="st7 st3 st8">System </tspan><tspan x="-2.14" y="16" class="st7 st3 st8">security</tspan></text>
+	</g>
+</a></g>
+<g id="admin">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00102/html/xid1158684" target="_top">
+	<circle onmouseover="h6Function()" onmouseout="hidepanels()" class="st6" cx="598.18" cy="530" r="61.6"/>
+	<text transform="matrix(1 0 0 1 584.201 518.0246)"><tspan x="0" y="0" class="st7 st3 st8">Site </tspan><tspan x="-33.63" y="16" class="st7 st3 st8">administration</tspan><tspan x="-0.57" y="32" class="st7 st3 st8">data</tspan></text>
+</a></g>
+<g id="search">
+    	<circle onmouseover="h7Function()" class="st6" cx="738.52" cy="626.85" r="61.6"/>
+	<text transform="matrix(1 0 0 1 695.502 622.875)"><tspan x="0" y="0" class="st7 st3 st8">Searches and</tspan><tspan x="18.9" y="16" class="st7 st3 st8">queries</tspan></text>
+</g>
+<g id="sub">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00035/html/xid362716_v1" target="_top">
+	<circle onmouseover="h8Function()" onmouseout="hidepanels()" class="st6" cx="598.18" cy="705.99" r="61.6"/>
+	<text transform="matrix(1 0 0 1 552.9432 694.0179)"><tspan x="0" y="0" class="st7 st3 st8">Subscriptions </tspan><tspan x="12.73" y="16" class="st7 st3 st8">and event</tspan><tspan x="4.9" y="32" class="st7 st3 st8">notifications</tspan></text>
+</a></g>
+<g id="plmxml">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00030/html/xid364046" target="_top">
+	<circle onmouseover="h9Function()" onmouseout="hidepanels()" class="st6" cx="739.76" cy="808.39" r="61.6"/>
+	<g>
+		<rect x="699.63" y="784.59" class="st1" width="80.25" height="47.6"/>
+		<text transform="matrix(1 0 0 1 707.9782 795.4375)"><tspan x="0" y="0" class="st7 st3 st8">PLM/XML </tspan><tspan x="17.23" y="16" class="st7 st3 st8">data </tspan><tspan x="0.29" y="32" class="st7 st3 st8">migration</tspan></text>
+	</g>
+</a></g>
+<g id="main">
+	<g>
+		<circle class="st9" cx="57.39" cy="440.45" r="51.07"/>
+	</g>
+	<circle class="st10" cx="132.39" cy="300.87" r="50.73"/>
+	<g>
+		<circle class="st11" cx="233.39" cy="440.45" r="88.41"/>
+	</g>
+	<g><a xlink:href="xid1854862.html" target="_top">
+		<polygon class="st7" points="133.91,437.3 62.53,437.3 98.22,376.53 133.91,315.76 169.61,376.53 205.3,437.3 		"/>	
+	<text transform="matrix(1 0 0 1 115.1021 395.1313)"><tspan x="0" y="0" class="st12 st3 st8">Rapid</tspan><tspan x="2.76" y="16" class="st12 st3 st8">Start</tspan></text>
+	</a></g>
+	<g id="config">
+		<a xlink:href="xid1854864.html" target="_top">
+		<g>
+			<circle class="st13" cx="57.39" cy="440.45" r="46.69"/>
+		</g>
+		<text transform="matrix(1 0 0 1 21.3201 430.7262)"><tspan x="0" y="0" class="st14 st3 st15">Configuration</tspan><tspan x="14.87" y="13" class="st14 st3 st15">for your</tspan><tspan x="13.47" y="26" class="st14 st3 st15">business</tspan></text>
+	</a></g>
+	<g id="dep">
+		<a xlink:href="xid1854863.html" target="_top">		
+		<g>
+			<circle class="st13" cx="132.39" cy="300.87" r="46.35"/>
+		</g>
+		<text transform="matrix(1 0 0 1 99.8665 284.6381)"><tspan x="0" y="0" class="st14 st3 st15">Deployment</tspan><tspan x="4.93" y="13" class="st14 st3 st15">with ECAD</tspan><tspan x="4.33" y="26" class="st14 st3 st15">and MCAD</tspan><tspan x="3.31" y="39" class="st14 st3 st15">integration</tspan></text>
+	</a></g>
+	<g>
+		<circle class="st13n" cx="233.39" cy="440.45" r="70.34"/>
+	</g>
+	<text transform="matrix(1 0 0 1 204.0464 435.4881)"><tspan x="0" y="0" class="st14 st3 st16">System</tspan><tspan x="-30.17" y="20" class="st14 st3 st16">administration</tspan></text>
+</g>
+<script>
+<![CDATA[
+// get all the css selectors so they can be modified later--anticlockwise starting with classification 
+    var hovertext1 = document.querySelector("#h1");
+    var hovertext2 = document.querySelector("#h2");
+    var hovertext3 = document.querySelector("#h3");
+    var hovertext4 = document.querySelector("#h4");
+    var hovertext5 = document.querySelector("#h5");
+    var hovertext6 = document.querySelector("#h6");
+    var hovertext7 = document.querySelector("#h7");
+    var hovertext8 = document.querySelector("#h8");
+    var hovertext9 = document.querySelector("#h9");
+    
+    
+    // function for hiding Hover text on mouseout
+    function hidepanels() {
+       hovertext1.style.visibility = 'hidden';
+       hovertext2.style.visibility = 'hidden';
+       hovertext3.style.visibility = 'hidden';
+       hovertext4.style.visibility = 'hidden';
+       hovertext5.style.visibility = 'hidden';
+       hovertext6.style.visibility = 'hidden';
+       hovertext7.style.visibility = 'hidden';
+       hovertext8.style.visibility = 'hidden';
+       hovertext9.style.visibility = 'hidden';
+       }
+    
+ function h1Function() {
+        // set things to visible   
+        hovertext1.style.visibility = 'visible'; 
+        hovertext2.style.visibility = 'hidden';
+        hovertext7.style.visibility = 'hidden';
+        }
+
+function h2Function() {
+        // set things to visible   
+        hovertext2.style.visibility = 'visible'; 
+        hovertext7.style.visibility = 'hidden';
+}
+function h3Function() {
+        // set things to visible   
+        hovertext3.style.visibility = 'visible'; 
+        hovertext2.style.visibility = 'hidden';
+         hovertext7.style.visibility = 'hidden';
+}
+function h4Function() {
+        // set things to visible   
+        hovertext4.style.visibility = 'visible'; 
+        hovertext2.style.visibility = 'hidden';
+       hovertext7.style.visibility = 'hidden';
+}
+function h5Function() {
+        // set things to visible   
+        hovertext5.style.visibility = 'visible';
+        hovertext2.style.visibility = 'hidden';
+        hovertext7.style.visibility = 'hidden';
+}
+function h6Function() {
+        // set things to visible   
+        hovertext6.style.visibility = 'visible';
+        hovertext2.style.visibility = 'hidden';
+      hovertext7.style.visibility = 'hidden';
+}
+function h7Function() {
+        // set things to visible   
+        hovertext7.style.visibility = 'visible'; 
+        hovertext2.style.visibility = 'hidden';
+       
+}
+function h8Function() {
+        // set things to visible   
+        hovertext8.style.visibility = 'visible'; 
+        hovertext2.style.visibility = 'hidden';
+        hovertext7.style.visibility = 'hidden';
+}
+function h9Function() {
+        // set things to visible   
+        hovertext9.style.visibility = 'visible';  
+        hovertext2.style.visibility = 'hidden';
+        hovertext7.style.visibility = 'hidden';
+         
+}
+ ]]> 
+</script>
+</svg>
+

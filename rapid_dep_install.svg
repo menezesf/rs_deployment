@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1214.3 984.51" style="enable-background:new 0 0 1214.3 984.51;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F6861F;stroke-width:0.75;stroke-miterlimit:10;}
+	.st1{fill:#006288;}
+	.st2{fill:#62833C;}
+	.st3{fill:#F6861F;}
+	.st3n{fill:#F6861F;}
+	.st3:hover{fill:#933f29;}
+	.st4{fill:#FFFFFF;}
+	.st4:hover{fill:#d6e0e7;}
+	.st5{fill:#737575;}
+	.st6{font-family:'Calibri';}
+	.st6_1{font-family:'Calibri'; font-size:18px; fill:#2aadd9; pointer-events: auto;}
+	.st6_1:hover{fill:#f0820f;}
+	.st7{font-size:16px;}
+	.st8{fill:#F0EEEF;}
+	.st8n{fill:#F0EEEF;}
+	.st8:hover{fill:#d6e0e7; stroke:#F0EEEF;}
+	.st9{fill:#4C585D;}
+	.st10{font-size:13px;}
+	.st11{font-size:20px;}
+	.st12c{fill:#127784;}
+	.st12c:hover{fill:#004c57; transition: fill .1s;}
+	.st12{fill:#555C5E; pointer-events: auto;}
+	.st12:hover{fill:#004c57; transition: fill .1s;}
+	.st13{font-size:18px;}
+	.st14{opacity:0;fill:#127784;}
+	.st15{font-size:22px;}
+	.st16{fill:none;}
+	.st17{fill:#555C5E;}
+	.st18{font-size:15px;}
+	/*  disable text mouse pointer for text  #004c57 */  
+    text {
+  	      pointer-events: none;
+        }
+	/* for hiding tasks initially  */
+      #hover_disp, #hover_vis, #hover_expand, #hover_security{ visibility: hidden;   }
+      
+      #main, #main_lines, #branch_lines, #server_lines, #ecad_lines, #mcad_lines, #install, #upgrade, #expand, #vis, #security, #disp, #mcad, #ecad, #server, #aw,  #server_1, #web, #rich_client, #txt{
+        opacity: 0;
+        }
+
+/* keyframe - 1 sec to show, don't fade  */
+    @keyframes blockFadein1 {
+            0%   {  
+                    opacity: 0;    
+                }
+            50% {  
+                    opacity: 1.0;   
+                }
+            100% {  
+                    opacity: 1.0;   
+                }
+        }
+        
+  #main {
+    		animation-name: blockFadein1;
+            animation-delay: 0s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+            
+   #main_lines {
+    		animation-name: blockFadein1;
+            animation-delay: .5s;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+            
+   #install, #upgrade, #expand {
+    		animation-name: blockFadein1;
+            animation-delay: 1s;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+	
+	#branch_lines {
+    		animation-name: blockFadein1;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+            
+    #vis, #security, #disp, #mcad, #ecad, #server, #aw
+    {
+    		animation-name: blockFadein1;
+            animation-delay: 1.5s;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+            
+   #server_lines, #ecad_lines, #mcad_lines
+   {
+    		animation-name: blockFadein1;
+            animation-delay: 2s;
+            animation-duration: .5s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+   #server_1, #web, #rich_client, #txt
+    {
+    		animation-name: blockFadein1;
+            animation-delay: 2.3s;
+            animation-duration: .5s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+</style>
+	
+<g id="server_lines">
+	<line class="st0" x1="116.99" y1="633.76" x2="214.92" y2="605.63"/>
+	<line class="st0" x1="160.75" y1="680.65" x2="209.71" y2="607.71"/>
+	<line class="st0" x1="261.81" y1="684.81" x2="212.84" y2="607.71"/>
+</g>
+<g id="mcad_lines">
+	<line class="st0" x1="970.57" y1="681.13" x2="1032.66" y2="597.34"/>
+	<line class="st0" x1="970.57" y1="741.38" x2="1041.04" y2="604.53"/>
+	<line class="st0" x1="1012.45" y1="777.13" x2="1040.02" y2="603.51"/>
+	<line class="st0" x1="1073.72" y1="804.7" x2="1039" y2="605.55"/>
+	<line class="st0" x1="1109.47" y1="769.98" x2="1037.98" y2="600.45"/>
+	<line class="st0" x1="1135" y1="729.13" x2="1036.96" y2="602.49"/>
+	<line class="st0" x1="1146.23" y1="678.06" x2="1040.02" y2="601.47"/>
+	
+</g>
+<g id="ecad_lines">
+	<line class="st0" x1="890.91" y1="636.19" x2="843.72" y2="562.62"/>
+	<line class="st0" x1="821.47" y1="638.23" x2="841.68" y2="561.6"/>
+</g>
+<g id="branch_lines">
+	<path class="st0" d="M586.9,235.65c0,0-452.96,228.92-441.73,371.9"/>
+	<path class="st0" d="M586.58,262.91c0,0-68.43,342.64,27.57,372.26"/>
+	<path class="st0" d="M588.27,237.03c0,0-233.28,478.7-135.75,540.52"/>
+	<path class="st0" d="M581.79,264.11c0,0,341.61,212.72,322.19,302.59"/>
+	<path class="st0" d="M582.78,232.91c0,0,521.37,251.07,515.24,369.54"/>
+	<path class="st0" d="M584.19,259.32c0,0,246.74,495.18,189.05,587.21"/>
+</g>
+<g id="main_lines">
+	<path class="st0" d="M253.22,99.2c0,0,411.1,10.13,404.16,153.9"/>
+	<path class="st0" d="M252.21,92.11c0,0,657.15-31.39,647.95,164.33"/>
+	
+</g>
+<g id="main">
+	<g>
+		<circle class="st1" cx="71.3" cy="256.19" r="52.36"/>
+	</g>
+	<g>
+		<circle class="st2" cx="241.53" cy="256.43" r="52.36"/>
+	</g>
+	<circle class="st3n" cx="161.65" cy="95.22" r="90.65"/>
+	<g id="triangle">
+		<a xlink:href="xid1854862.html" target="_top">
+		<polygon class="st4" points="156.56,252.72 85.17,252.72 120.86,191.96 156.56,131.19 192.25,191.96 227.95,252.72 		"/>
+	
+	<text transform="matrix(1 0 0 1 137.7452 210.5547)"><tspan x="0" y="0" class="st5 st6 st7">Rapid</tspan><tspan x="2.76" y="16" class="st5 st6 st7">Start</tspan></text>
+	</a></g>
+	<g id="config">
+		<a xlink:href="xid1854864.html" target="_top">
+		<g>
+			<circle class="st8" cx="71.3" cy="256.19" r="47.88"/>
+		</g>
+		<text transform="matrix(1 0 0 1 35.2336 246.4583)"><tspan x="0" y="0" class="st9 st6 st10">Configuration</tspan><tspan x="14.87" y="13" class="st9 st6 st10">for your</tspan><tspan x="13.47" y="26" class="st9 st6 st10">business</tspan></text>
+	</a></g>
+	<g id="sys">
+		<a xlink:href="xid1854865.html" target="_top">
+		<g>
+			<circle class="st8" cx="241.53" cy="256.43" r="47.88"/>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 222.4576 253.3289)"><tspan x="0" y="0" class="st9 st6 st10">System</tspan><tspan x="-19.61" y="14" class="st9 st6 st10">administration</tspan></text>
+		</g>
+	</a></g>
+	<g>
+		<circle class="st8n" cx="161.65" cy="95.22" r="72.12"/>
+	</g>
+	<text transform="matrix(1 0 0 1 111.6056 71.0472)"><tspan x="0" y="0" class="st9 st6 st11">Deployment</tspan><tspan x="7.58" y="20" class="st9 st6 st11">with ECAD</tspan><tspan x="6.67" y="40" class="st9 st6 st11">and MCAD</tspan><tspan x="5.09" y="60" class="st9 st6 st11">integration</tspan></text>
+</g>
+<g id="vis">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.getting_started_visualization_tc/html/common_files_introduction" target="_top">
+	<circle onmouseover="visFunction()" onmouseout="hidepanels()" class="st12c" cx="708.57" cy="813.77" r="71.74"/>
+	<text transform="matrix(1 0 0 1 662.354 818.3054)" class="st4 st6 st13">Visualization</text>
+</a></g>
+<g id="security">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.tss00001/html/xid373993" target="_top">
+	<circle onmouseover="secFunction()" onmouseout="hidepanels()" class="st12c" cx="640.58" cy="582.34" r="60.04"/>
+	<text transform="matrix(1 0 0 1 611.6065 581.4375)"><tspan x="0" y="0" class="st4 st6 st13">Security</tspan><tspan x="-0.25" y="18" class="st4 st6 st13">services</tspan></text>
+</a></g>
+<g id="mcad">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.mcad_integration/html/xid1603646" target="_top">
+	<circle class="st12c" cx="1036.16" cy="603.16" r="61.69"/>
+	<text transform="matrix(1 0 0 1 1012.9173 598.6956)"><tspan x="0" y="0" class="st4 st6 st13">MCAD</tspan><tspan x="-17.42" y="18" class="st4 st6 st13">integration</tspan></text>
+</a>
+</g>
+<g id="disp">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00565/html/xid1674628" target="_top">
+	<circle onmouseover="dispFunction()" onmouseout="hidepanels()" class="st12c" cx="495.64" cy="729.15" r="65.28"/>
+	<text transform="matrix(1 0 0 1 456.3109 733.6782)" class="st4 st6 st13">Dispatcher</text>
+</a></g>
+<g id="ecad">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.ecad_integration_rs/html/xid1603647" target="_top">
+	<circle class="st12c" cx="842.99" cy="561.34" r="61.69"/>
+	<text transform="matrix(1 0 0 1 823.0463 556.8664)"><tspan x="0" y="0" class="st4 st6 st13">ECAD</tspan><tspan x="-20.72" y="18" class="st4 st6 st13">integration</tspan></text>
+</a></g>
+<g id="server">
+	<circle class="st12c" cx="212.96" cy="601.71" r="67.48"/>
+	<g>
+		<text transform="matrix(1 0 0 1 192.2383 579.2361)"><tspan x="0" y="0" class="st4 st6 st13">Rapid</tspan><tspan x="-21.74" y="18" class="st4 st6 st13">Start Server</tspan><tspan x="6.95" y="36" class="st4 st6 st13">and</tspan><tspan x="-19.99" y="54" class="st4 st6 st13">Rich Client </tspan></text>
+	</g>
+</g>
+	<g id="txt">
+<text transform="matrix(1 0 0 1 1113.6732 694.2431)"><a xlink:href="https://support.sw.siemens.com/en-US/product/282219420/documentation" target="_top"><tspan class="st6_1">SOLIDWORKS</tspan></a></text>
+<text transform="matrix(1 0 0 1 1111.2386 744.2856)"><a xlink:href="https://support.sw.siemens.com/en-US/product/282219420/documentation" target="_top"><tspan class="st6_1">Inventor</tspan></a></text>
+<text transform="matrix(1 0 0 1 1000.2256 823.9453)"><a xlink:href="https://support.sw.siemens.com/en-US/product/282219420/documentation" target="_top"><tspan class="st6_1">Creo/ProENGINEER</tspan></a></text>
+<text transform="matrix(1 0 0 1 1088.8779 786.158)"><a xlink:href="https://support.sw.siemens.com/en-US/product/282219420/documentation" target="_top"><tspan class="st6_1">CATIA</tspan></a></text>
+<text transform="matrix(1 0 0 1 973.3347 793.3069)"><a xlink:href="https://support.sw.siemens.com/en-US/product/282219420/documentation" target="_top"><tspan class="st6_1">AutoCAD</tspan></a></text>
+<text transform="matrix(1 0 0 1 926.068 760.6261)"><a xlink:href="https://support.sw.siemens.com/en-US/product/246738425/documentation" target="_top"><tspan class="st6_1">Solid Edge</tspan></a></text>
+<text transform="matrix(1 0 0 1 951.2434 699.4133)"><a xlink:href="https://support.sw.siemens.com/en-US/product/209349590/documentation" target="_top"><tspan class="st6_1">NX</tspan></a></text>
+<text transform="matrix(1 0 0 1 751.9241 654.4559)"><a xlink:href="https://support.sw.siemens.com/en-US/product/282219420/documentation" target="_top"><tspan class="st6_1">Siemens EDA</tspan></a></text>
+<text transform="matrix(1 0 0 1 867.9281 653.5745)"><a xlink:href="https://support.sw.siemens.com/en-US/product/282219420/documentation" target="_top"><tspan class="st6_1">Others</tspan></a></text>
+	</g>
+<g id="server_1">
+	<rect x="6.28" y="614.28" class="st14" width="116.17" height="54.53"/>
+	<text transform="matrix(1 0 0 1 19.4596 629.2743)" class = "st6 st12 st13"><tspan x="0" y="0">Install Rapid</tspan> <tspan x="0" y="18">Start Server</tspan><tspan x="-1.83" y="36">on</tspan>
+		<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.server_win/html/partGettingStartedWindows" target="_top"><tspan x="20.83" y="36" class = "st6_1">Windows</tspan></a>
+		<tspan x="10" y="54">or</tspan><tspan x="25" y="54" class="st6_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.server_unix/html/partGettingStarted" target="_top"> Linux</a></tspan></text>
+</g>
+<g id="web">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00015/html/xid367728" target="_top">
+	<rect x="101.11" y="681.84" class="st14" width="97.2" height="40.3"/>
+	<text transform="matrix(1 0 0 1 105.47 697.5153)" class="st6_1"><tspan x="0" y="0">Deploy web </tspan><tspan x="1.31" y="18">applications</tspan></text>
+</a></g>
+<g id="rich_client">
+	<rect x="217.28" y="687.77" class="st14" width="130.39" height="54.53"/>
+	<text transform="matrix(1 0 0 1 220.0225 702.0838)" class = "st6 st12 st13"><tspan x="0" y="0">Install Rich Client</tspan><tspan x="7.02" y="18">on</tspan><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.client_win/html/xid372745_v1" target="_top"><tspan x="31" y="18" class = "st6_1">Windows </tspan></a><tspan x="18" y="36">or</tspan>
+		<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.client_unix/html/xid372745" target="_top"><tspan x="38" y="36" class = "st6_1"> Linux</tspan></a></text>
+</g>
+<g id="install">
+	<circle class="st3n" cx="584.86" cy="262.13" r="72.25"/>
+	<text transform="matrix(1 0 0 1 558.0081 247.1616)"><tspan x="0" y="0" class="st4 st6 st15">Install</tspan><tspan x="1.53" y="22" class="st4 st6 st15">Rapid</tspan><tspan x="5.33" y="44" class="st4 st6 st15">Start</tspan></text>
+</g>
+<g id="upgrade">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.upgrade_guide/html/id1469999_v2" target="_top">
+	<circle class="st3" cx="826.78" cy="262.13" r="72.25"/>
+	<text transform="matrix(1 0 0 1 788.4093 247.1615)"><tspan x="0" y="0" class="st4 st6 st15">Upgrade</tspan><tspan x="13.05" y="22" class="st4 st6 st15">Rapid</tspan><tspan x="16.84" y="44" class="st4 st6 st15">Start</tspan></text>
+</a></g>
+
+<g id="hover_security">
+	<rect x="565.64" y="645.18" class="st16" width="161.8" height="36.95"/>
+	<text transform="matrix(1 0 0 1 565.6366 655.3481)"><tspan x="0" y="0" class="st17 st6 st18">Enable single sign-on for </tspan><tspan x="0" y="15" class="st17 st6 st18">Teamcenter applications.</tspan></text>
+</g>
+<g id="hover_vis">
+	<rect x="609.64" y="890.28" class="st16" width="230" height="120.77"/>
+	<text transform="matrix(1 0 0 1 609.6373 900.4479)"><tspan x="0" y="0" class="st17 st6 st18">Visualize design data in proprietary </tspan><tspan x="0" y="15" class="st17 st6 st18">CAD formats in a CAD-neutral </tspan><tspan x="0" y="30" class="st17 st6 st18">collaborative environment to explore </tspan><tspan x="0" y="45" class="st17 st6 st18">and validate product changes and </tspan><tspan x="0" y="60" class="st17 st6 st18">issues.</tspan></text>
+</g>
+<g id="hover_disp">
+	<rect x="401.1" y="798.06" class="st16" width="196.5" height="129.36"/>
+	<text transform="matrix(1 0 0 1 401.1004 808.2292)"><tspan x="0" y="0" class="st17 st6 st18">Set up Dispatcher on different </tspan><tspan x="0" y="15" class="st17 st6 st18">machines to asynchronously </tspan><tspan x="0" y="30" class="st17 st6 st18">distribute resource-intensive </tspan><tspan x="0" y="45" class="st17 st6 st18">jobs among these machines and </tspan><tspan x="0" y="60" class="st17 st6 st18">translate data files that are </tspan><tspan x="0" y="75" class="st17 st6 st18">managed by Teamcenter to 3D </tspan><tspan x="0" y="90" class="st17 st6 st18">or 2D file formats.</tspan></text>
+</g>
+<script>
+<![CDATA[
+// get all the css selectors so they can be modified later  
+    var hovertextDisp = document.querySelector("#hover_disp");
+    var hovertextSec = document.querySelector("#hover_security");
+    var hovertextVis = document.querySelector("#hover_vis");
+    var hovertextExp = document.querySelector("#hover_expand");
+    
+    // function for hiding Hover text on mouseout
+    function hidepanels() {
+       hovertextDisp.style.visibility = 'hidden';
+       hovertextSec.style.visibility = 'hidden';
+       hovertextVis.style.visibility = 'hidden';
+       hovertextExp.style.visibility = 'hidden';
+       }
+    
+ function dispFunction() {
+        // set things to visible   
+        hovertextDisp.style.visibility = 'visible';  
+}
+
+function secFunction() {
+        // set things to visible   
+        hovertextSec.style.visibility = 'visible';  
+}
+function visFunction() {
+        // set things to visible   
+        hovertextVis.style.visibility = 'visible';  
+}
+function expFunction() {
+        // set things to visible   
+        hovertextExp.style.visibility = 'visible';  
+}
+ ]]> 
+</script>
+</svg>

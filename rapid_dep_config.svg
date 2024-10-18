@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1038.13 880.85" style="enable-background:new 0 0 1038.13 880.85;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#006288;stroke-miterlimit:10;}
+	.st1{fill:#127784;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st1:hover{fill:#004c57; transition: fill .1s;}
+	.st2{fill:#FFFFFF;}
+	.st2:hover{fill:#d6e0e7;}
+	.st3{font-family:'Calibri';}
+	.st4{font-size:16px;}
+	.st5{fill:none;}
+	.st6{fill:#555C5E;}
+	.st6_1{font-family:'Calibri'; fill:#2aadd9; font-size:15px; pointer-events: auto;}	
+	.st6_1:hover{fill:#f0820f;}
+	.st7{font-size:15px;}
+	.st8{font-size:12px;}
+	.st9{fill:#F6861F;}
+	.st10{fill:#006288;}
+	.st11{fill:#62833C;}
+	.st12{fill:#737575;}
+	.st13{fill:#F0EEEF;}
+	.st13n{fill:#F0EEEF;}
+	.st13:hover{fill:#d6e0e7; stroke:#F0EEEF;}
+	.st14{fill:#4C585D;}
+	.st15{font-size:13px;}
+	.st16{font-size:20px;}
+	
+	/*  disable text mouse pointer for text   */  
+    text {
+  	      pointer-events: none;
+        }
+	/* for hiding tasks initially  */
+      #h_1, #h_2, #h_3, #h_4, #h_5, #h_6, #h_7, #h_8, #h_9{ visibility: hidden;   }
+      
+       #main, #lines, #class, #repo, #sched, #doc, #req, #process, #bom, #access, #user {
+        opacity: 0;
+        }
+      
+      /* keyframe - 1 sec to show, don't fade  */
+    @keyframes blockFadein1 {
+            0%   {  
+                    opacity: 0;    
+                }
+            50% {  
+                    opacity: 1.0;   
+                }
+            100% {  
+                    opacity: 1.0;   
+                }
+        }
+        
+  #main {
+    		animation-name: blockFadein1;
+            animation-delay: 0s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+            
+   #lines {
+    		animation-name: blockFadein1;
+            animation-delay: .5s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }
+    
+  #class, #repo, #sched, #doc, #req, #process, #bom, #access, #user{
+    		animation-name: blockFadein1;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            }            
+ 
+</style>
+<g id="lines">
+	<line class="st0" x1="668.66" y1="309.16" x2="410.94" y2="482.89"/>
+	<line class="st0" x1="674.74" y1="317.47" x2="225.2" y2="430.59"/>
+	<line class="st0" x1="675.64" y1="313.29" x2="748.08" y2="549.54"/>
+	<line class="st0" x1="667.81" y1="321.23" x2="641.51" y2="753.6"/>
+	<line class="st0" x1="670.56" y1="316.57" x2="570.52" y2="562.23"/>
+	<line class="st0" x1="669.61" y1="312.87" x2="356.57" y2="673.94"/>
+	<line class="st0" x1="662.94" y1="321.49" x2="362.25" y2="292.64"/>
+	<line class="st0" x1="671.94" y1="314.25" x2="345.4" y2="165.89"/>
+	<line class="st0" x1="671.73" y1="317.26" x2="510.95" y2="133.88"/>
+</g>
+<g id="class">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.basic_class_deploy/html/xid376270" target="_top">
+	<circle onmouseover="h1Function()" onmouseout="hidepanels()" class="st1" cx="507.48" cy="135.78" r="62.19"/>
+	<text transform="matrix(0.9902 0 0 1 465.5401 139.9976)" class="st2 st3 st4">Classification</text>
+</a></g>
+<g id="sched">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00054/custom/" target="_top">
+	<circle onmouseover="h2Function()" onmouseout="hidepanels()" class="st1" cx="323.16" cy="144.11" r="62.19"/>
+	<text transform="matrix(0.9902 0 0 1 293.98 140.3897)"><tspan x="0" y="0" class="st2 st3 st4">Schedule</tspan><tspan x="-13.79" y="16" class="st2 st3 st4">management</tspan></text>
+</a></g>
+<g id="req">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.MBSE/html/xid1065862" target="_top">
+	<circle onmouseover="h3Function()" onmouseout="hidepanels()" class="st1" cx="363.91" cy="294.64" r="62.19"/>
+	<g>
+		<text transform="matrix(0.9902 0 0 1 318.6387 290.919)"><tspan x="0" y="0" class="st2 st3 st4">Requirements</tspan><tspan x="2.46" y="16" class="st2 st3 st4">management</tspan></text>
+	</g>
+</a></g>
+<g id="doc">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.doc_management_deploy/html/xid1405781" target="_top">
+	<circle onmouseover="h4Function()" onmouseout="hidepanels()" class="st1" cx="224.49" cy="427.92" r="62.19"/>
+	<text transform="matrix(1 0 0 1 190.5064 424.1992)"><tspan x="0" y="0" class="st2 st3 st4">Document</tspan><tspan x="-9.28" y="16" class="st2 st3 st4">management</tspan></text>
+</a></g>
+<g id="repo">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.plm00039/html/xid1124854" target="_top">
+	<circle onmouseover="h5Function()" onmouseout="hidepanels()" class="st1" cx="412.42" cy="482.66" r="62.19"/>
+	<text transform="matrix(1 0 0 1 380.4561 486.8872)" class="st2 st3 st4">Reporting</text>
+</a></g>
+<g id="process">
+	<circle onmouseover="h6Function()" class="st1" cx="354.48" cy="672.1" r="62.19"/>
+	<text transform="matrix(1 0 0 1 315.6725 660.4276)"><tspan x="0" y="0" class="st2 st3 st4">Process and</tspan><tspan x="13.63" y="16" class="st2 st3 st4">change </tspan><tspan x="-4.45" y="32" class="st2 st3 st4">management</tspan></text>
+</g>
+
+<g id="bom">
+	<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.pse/html/getting_started_get_getting_started" target="_top">
+	<circle onmouseover="h7Function()" onmouseout="hidepanels()" class="st1" cx="568.18" cy="569.52" r="62.19"/>
+	<text transform="matrix(1 0 0 1 532.3018 557.8482)"><tspan x="0" y="0" class="st2 st3 st4">Design and</tspan><tspan x="19.39" y="17" class="st2 st3 st4">BOM</tspan><tspan x="-7.38" y="34" class="st2 st3 st4">management</tspan></text>
+</a></g>
+<g id="access">
+	<circle onmouseover="h8Function()" class="st1" cx="642.05" cy="756.2" r="62.19"/>
+	<text transform="matrix(1 0 0 1 620.4198 752.4713)"><tspan x="0" y="0" class="st2 st3 st4">Access</tspan><tspan x="-21.63" y="16" class="st2 st3 st4">management</tspan></text>
+</g>
+<g id="user">
+	<circle onmouseover="h9Function()" class="st1" cx="760.43" cy="575.18" r="62.19"/>
+	<text transform="matrix(1 0 0 1 747.168 567.9273)"><tspan x="0" y="0" class="st2 st3 st4">User</tspan><tspan x="-28.23" y="16" class="st2 st3 st4">management</tspan></text>
+</g>
+
+<g id="h_1">
+	<g>
+		<rect x="435.61" y="12.89" class="st5" width="172.07" height="59.67"/>
+		<text transform="matrix(1 0 0 1 435.6055 23.0576)"><tspan x="0" y="0" class="st6 st3 st7">Create the classification </tspan><tspan x="0" y="15" class="st6 st3 st7">hierarchy to categorize </tspan><tspan x="0" y="30" class="st6 st3 st7">product data.</tspan><tspan x="0" y="45" class="st6 st3 st8">Requires separate license.</tspan></text>
+	</g>
+</g>
+<g id="h_2">
+	<g>
+		<rect x="73.68" y="114.62" class="st5" width="184.13" height="83.4"/>
+		<text transform="matrix(1 0 0 1 75.3008 124.7906)"><tspan x="0" y="0" class="st6 st3 st7">Set up Schedule Management </tspan><tspan x="27.93" y="15" class="st6 st3 st7">to plan and track product </tspan><tspan x="34.08" y="30" class="st6 st3 st7">development schedules.</tspan><tspan x="55.2" y="45" class="st6 st3 st8">Requires separate license.</tspan></text>
+	</g>
+</g>
+<g id="h_3">
+	<g>
+		<rect x="118.81" y="267.09" class="st5" width="176.8" height="66.12"/>
+		<text transform="matrix(1 0 0 1 167.961 277.2613)"><tspan x="0" y="0" class="st6 st3 st7">Set up Requirements </tspan><tspan x="-39.07" y="15" class="st6 st3 st7">Management to create and </tspan><tspan x="-11.1" y="30" class="st6 st3 st7">manage requirements.</tspan><tspan x="0.33" y="45" class="st6 st3 st8">Requires separate license.</tspan></text>
+	</g>
+</g>
+<g id="h_4">
+	<g>
+		<rect x="8.32" y="396.83" class="st5" width="149.58" height="78.98"/>
+		<text transform="matrix(1 0 0 1 52.2608 406.9995)"><tspan x="0" y="0" class="st6 st3 st7">Set up Document </tspan><tspan x="7.36" y="15" class="st6 st3 st7">Management to </tspan><tspan x="5.34" y="30" class="st6 st3 st7">manage product </tspan><tspan x="-38.04" y="45" class="st6 st3 st7">documents in sync with </tspan><tspan x="-30.86" y="60" class="st6 st3 st7">product development.</tspan></text>
+	</g>
+</g>
+<g id="h_5">
+	<g>
+		<rect x="242.19" y="515.89" class="st5" width="130.3" height="65.69"/>
+		<text transform="matrix(1 0 0 1 242.1916 526.0568)"><tspan x="0" y="0" class="st6 st3 st7">Use Report Builder </tspan><tspan x="0" y="15" class="st6 st3 st7">to set up reports </tspan><tspan x="0" y="30" class="st6 st3 st7">required to support </tspan><tspan x="0" y="45" class="st6 st3 st7">the business. </tspan></text>
+	</g>
+</g>
+<g id="h_6">
+	<g>
+		<rect x="270.81" y="738.54" class="st5" width="179.72" height="62.18"/>
+		<text transform="matrix(1 0 0 1 270.8096 748.7144)" class="st6 st3 st7"><tspan x="0" y="0">Use or modify preconfigured </tspan><tspan x="0" y="15">engineering workflows and </tspan><tspan x="0" y="30">change management </tspan><tspan x="0" y="45">capabilities through</tspan> <tspan x="0" y="60" class="st6_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.manage_changes_aw_rs/html/xid868326" target="_top">Active Workspace</a></tspan><tspan x="110" y="60"> or</tspan> <tspan x="0" y="75" class = "st6_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.manage_changes_rc_rs/html/xid1677226" target="_top">Rich Client.</a></tspan></text>
+	</g>
+</g>
+<g id="h_7">
+	<g>
+		<rect x="484.16" y="635.74" class="st5" width="165.93" height="84.9"/>
+		<text transform="matrix(1 0 0 1 484.1585 645.9138)"><tspan x="0" y="0" class="st6 st3 st7">Set the behavior and the </tspan><tspan x="0" y="15" class="st6 st3 st7">rules to manage design </tspan><tspan x="0" y="30" class="st6 st3 st7">and BOM structures </tspan><tspan x="0" y="45" class="st6 st3 st7">through Structure </tspan><tspan x="0" y="60" class="st6 st3 st7">Manager.</tspan></text>
+	</g>
+</g>
+<g id="h_8">
+	<g>
+		<rect x="554.86" y="824.42" class="st5" width="188.19" height="49.83"/>
+		<text transform="matrix(1 0 0 1 554.8573 834.5944)" class="st6 st3 st7"><tspan x="0" y="0">Control access to product data through </tspan><tspan x="0" y="15" class = "st6_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.project/html/xid347301" target="_top">Projects and Program Manager </a></tspan><tspan x="0" y="30">or</tspan><tspan x="15" y="30" class = "st6_1">
+			<a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.access_manager/html/xid374402" target="_top">Access Manager.</a></tspan></text>
+	</g>
+</g>
+<g id="h_9">
+	<g>
+		<rect x="829.01" y="542.29" class="st5" width="198.54" height="80.73"/>
+		<text transform="matrix(1 0 0 1 829.009 552.4564)" class="st6 st3 st7"><tspan x="0" y="0">Create and maintain the </tspan><tspan x="0" y="15">company’s organization within </tspan><tspan x="0" y="30">Rapid Start by creating users, </tspan><tspan x="0" y="45">roles, and groups through </tspan><tspan x="0" y="60" class="st6_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.AWAdmin/xid1366704" target="_top">Active Workspace</a></tspan> <tspan x="110" y="60">or</tspan> <tspan x="0" y="75" class="st6_1"><a xlink:href="/en-US/product/282219420/doc/PL20231129262326068.organization/html/id146081" target="_top">Rich Client.</a></tspan></text>
+	</g>
+</g>
+<g id="main">
+	<circle class="st9" cx="766.85" cy="171.67" r="51.21"/>
+	<g>
+		<circle class="st10" cx="674.1" cy="318.48" r="89.25"/>
+	</g>
+	<g>
+		<circle class="st11" cx="841.59" cy="311.42" r="51.21"/>
+	</g>
+	<g id="rs">
+		<a xlink:href="xid1854862.html" target="_top">
+		<g>
+			<polygon class="st2" points="764.47,298.26 693.08,298.26 728.77,237.49 764.47,176.72 800.16,237.49 835.86,298.26 			"/>
+		</g>
+		<text transform="matrix(1 0 0 1 745.6553 256.0887)"><tspan x="0" y="0" class="st12 st3 st4">Rapid</tspan><tspan x="2.76" y="16" class="st12 st3 st4">Start</tspan></text>
+		</a>
+	</g>
+	<g id="dep">
+		<a xlink:href="xid1854863.html" target="_top">
+		<g>
+			<circle class="st13" cx="766.85" cy="171.67" r="46.79"/>
+		</g>
+		<text transform="matrix(1 0 0 1 734.3207 155.439)"><tspan x="0" y="0" class="st14 st3 st15">Deployment</tspan><tspan x="4.93" y="13" class="st14 st3 st15">with ECAD</tspan><tspan x="4.33" y="26" class="st14 st3 st15">and MCAD</tspan><tspan x="3.16" y="39" class="st14 st3 st15">integration</tspan></text>
+	</a></g>
+	<g id="sys">
+		<a xlink:href="xid1854865.html" target="_top">
+		<g>
+			<circle class="st13" cx="841.59" cy="311.42" r="46.79"/>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 822.5137 307.9063)"><tspan x="0" y="0" class="st14 st3 st15">System</tspan><tspan x="-19.61" y="13" class="st14 st3 st15">administration</tspan></text>
+		</g>
+	</a></g>
+	<g>
+		<circle class="st13n" cx="674.1" cy="318.48" r="71"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 618.6105 303.5172)"><tspan x="0" y="0" class="st14 st3 st16">Configuration</tspan><tspan x="20.62" y="20" class="st14 st3 st16">for your </tspan><tspan x="20.72" y="40" class="st14 st3 st16">business</tspan></text>
+	</g>
+</g>
+<script>
+<![CDATA[
+// get all the css selectors so they can be modified later--anticlockwise starting with classification 
+    var hovertext1 = document.querySelector("#h_1");
+    var hovertext2 = document.querySelector("#h_2");
+    var hovertext3 = document.querySelector("#h_3");
+    var hovertext4 = document.querySelector("#h_4");
+    var hovertext5 = document.querySelector("#h_5");
+    var hovertext6 = document.querySelector("#h_6");
+    var hovertext7 = document.querySelector("#h_7");
+    var hovertext8 = document.querySelector("#h_8");
+    var hovertext9 = document.querySelector("#h_9");
+    
+    
+    // function for hiding Hover text on mouseout
+    function hidepanels() {
+       hovertext1.style.visibility = 'hidden';
+       hovertext2.style.visibility = 'hidden';
+       hovertext3.style.visibility = 'hidden';
+       hovertext4.style.visibility = 'hidden';
+       hovertext5.style.visibility = 'hidden';
+       hovertext6.style.visibility = 'hidden';
+       hovertext7.style.visibility = 'hidden';
+       hovertext8.style.visibility = 'hidden';
+       hovertext9.style.visibility = 'hidden';
+       }
+    
+ function h1Function() {
+        // set things to visible   
+        hovertext1.style.visibility = 'visible'; 
+        hovertext8.style.visibility = 'hidden';
+        hovertext6.style.visibility = 'hidden';
+        hovertext9.style.visibility = 'hidden';
+}
+
+function h2Function() {
+        // set things to visible   
+        hovertext2.style.visibility = 'visible'; 
+        hovertext8.style.visibility = 'hidden';
+        hovertext6.style.visibility = 'hidden';
+         hovertext9.style.visibility = 'hidden';
+}
+function h3Function() {
+        // set things to visible   
+        hovertext3.style.visibility = 'visible'; 
+        hovertext8.style.visibility = 'hidden';
+        hovertext6.style.visibility = 'hidden';
+         hovertext9.style.visibility = 'hidden';
+}
+function h4Function() {
+        // set things to visible   
+        hovertext4.style.visibility = 'visible'; 
+        hovertext8.style.visibility = 'hidden';
+        hovertext6.style.visibility = 'hidden';
+         hovertext9.style.visibility = 'hidden';
+}
+function h5Function() {
+        // set things to visible   
+        hovertext5.style.visibility = 'visible';
+        hovertext8.style.visibility = 'hidden';
+        hovertext6.style.visibility = 'hidden';
+         hovertext9.style.visibility = 'hidden';
+}
+function h6Function() {
+        // set things to visible   
+        hovertext6.style.visibility = 'visible';  
+        hovertext8.style.visibility = 'hidden';
+         hovertext9.style.visibility = 'hidden';
+}
+function h7Function() {
+        // set things to visible   
+        hovertext7.style.visibility = 'visible'; 
+        hovertext8.style.visibility = 'hidden';
+        hovertext6.style.visibility = 'hidden';
+         hovertext9.style.visibility = 'hidden';
+}
+function h8Function() {
+        // set things to visible   
+        hovertext8.style.visibility = 'visible';  
+        hovertext6.style.visibility = 'hidden';
+         hovertext9.style.visibility = 'hidden';
+}
+function h9Function() {
+        // set things to visible   
+        hovertext9.style.visibility = 'visible';  
+        hovertext8.style.visibility = 'hidden';
+        hovertext6.style.visibility = 'hidden';
+         
+}
+ ]]> 
+</script>
+</svg>

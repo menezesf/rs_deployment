@@ -1,0 +1,94 @@
+<!--
+This software and related documentation are proprietary to Siemens Industry Software Inc.
+
+(c) 2019 Siemens Industry Software Inc. All Rights Reserved.
+
+All trademarks belong to their respective holders.
+-->
+
+<html>
+<head>
+	<style type="text/css">
+		.top {width:100%; height: 100vh;}
+		.left {width: 25%; height: 100vh; float: left; overflow: auto;}
+		.right {width: 75%; height: 100vh; float: left; }
+		.content {width: 100%; height: 100vh; overflow: hidden;}
+		.uiVersion {margin-left: 10px; margin-top: 10px; margin-bottom: 10px; border-top-style: solid; border-width: 1px; border-color: #acacac;}
+		.uiVersion p {font-style: italic; font-size: .75rem; margin-bottom: 20px;}
+		body {overflow: hidden;}
+		p {display : block; font-family: Arial, Helvetica, sans-serif; margin-top: 0px; margin-bottom: 0px;}
+		h2 {font-family: Arial, Helvetica, sans-serif; font-weight: bold;}
+	</style>
+</head>
+
+<body>
+
+	<div class="top">
+		<div class="left">
+			<h2 id="title">Rapid Start Deployment Guidemap</h2>
+			<div id="displayTopics"></div>
+			<div class="uiVersion"><p>UI version: 1.0.26</p></div>
+		</div>
+		<div class="right">
+			<iframe class="content" name="displayContent" src=""></iframe>
+		</div>
+	</div>
+	
+	<script>
+		var json = {
+  "topics" : [ {
+    "href" : "xid1854862.html",
+    "title" : "Deploying Rapid Start",
+    "id" : "xid1854862"
+  }, {
+    "href" : "xid1854863.html",
+    "title" : "Deployment with ECAD and MCAD integration",
+    "id" : "xid1854863"
+  }, {
+    "href" : "xid1854864.html",
+    "title" : "Configuration for your business",
+    "id" : "xid1854864"
+  }, {
+    "href" : "xid1854865.html",
+    "title" : "System administration",
+    "id" : "xid1854865"
+  }, {
+    "href" : "topicSet_copyright.html",
+    "title" : "About Siemens Digital Industries Software",
+    "id" : "topicSet_copyright"
+  } ]
+};
+    function buildToc(level, children) {
+      var ret = "";
+      var indentation = level * 10;
+
+      for (i in children) {
+        var topic = children[i];
+        
+        ret += "<p style='margin-left: " + indentation + "px;'>";
+        
+        if (topic.href) {
+          ret += "<a target='displayContent' href='" + topic.href + "'>";
+        }
+
+        ret += topic.title;
+
+        if (topic.href) {
+          ret += "</a>";
+        }
+
+        if (topic.children) {
+          ret += buildToc(level+1, topic.children);
+        }
+
+        ret += "</p>";
+      }
+
+      return ret;
+    }
+
+		document.getElementById("displayTopics").innerHTML = buildToc(0, json.topics);
+	</script>
+
+</body>
+</html>
